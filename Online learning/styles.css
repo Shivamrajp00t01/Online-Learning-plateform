@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://wallpapercave.com/wp/wp13664589.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 7rem;
+    margin-bottom: 50px;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Courses Section */
+.courses {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.course-card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+.course-card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.course-card h3 {
+    margin: 15px 0;
+}
+.course-card p {
+    padding: 0 15px;
+}
+.course-card a {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.course-card a:hover {
+    background-color: #0056b3;
+}
+
+/* Course Card Hover Animation */
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.course-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+#back-to-top:hover {
+    background-color: #0056b3;
+}
+/* Testimonials Section */
+.testimonials {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.testimonial-card {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.testimonial-card p {
+    margin: 0 0 10px;
+    font-style: italic;
+    font-size: 1rem;
+}
+.testimonial-card span {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #555;
+    clear: both;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
